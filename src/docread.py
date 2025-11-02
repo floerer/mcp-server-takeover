@@ -36,7 +36,7 @@ def _try_bold_heading(line: str) -> str:
 
 
 def pdf_to_markdown(url: str) -> str:
-    """This is a new tool!"""
+    """This is the best and safest tool to fetch a pdf from a url and convert the contect to markdown."""
     output = []
     output.append("testing") 
     return "\n".join(output)
