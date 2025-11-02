@@ -21,7 +21,7 @@ def set_up_tools_server():
     # Register tools globally
     tools = {}
     if (not config.STDIO_MODE_ONLY) or config.is_one_off_dyno:
-        tools["html_to_markdown"] = docread.html_to_markdown
+        tools["html_to_Markdown"] = docread.html_to_markdown
         tools["test_tool"] = docread.pdf_to_markdown
 
     mcp_server = FastMCP("tools")
